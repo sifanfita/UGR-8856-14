@@ -1,0 +1,1133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  display: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: black;
+  color: #e3d4d4;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#home {
+  background-image: url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#about {
+  background-image: url(https://images.unsplash.com/photo-1555532538-dcdbd01d373d?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#vision {
+  background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#hobbies {
+  background-image: url(https://images.unsplash.com/photo-1593642634443-44adaa06623a?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#contact {
+  background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.header-text {
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: antiquewhite;
+  font-style: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.aboutContainer {
+  height: 500px;
+}
+.myHistory {
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.copyRight {
+  display: none;
+}
+.footer {
+  display: grid;
+  place-items: center;
+  overflow: auto;
+}
+.footerContainer {
+  width: 100%;
+  max-width: 960px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 10px;
+}
+i {
+  color: white;
+}
+hr {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: none;
+}
+figcaption {
+  display: none;
+}
+.video {
+  display: none;
+}
+.table {
+  display: none;
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 10px;
+  height: 500px;
+}
+.myHistory {
+  padding-top: 50px;
+  align-self: normal;
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+.visionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+  padding: 10px;
+}
+.myVision {
+  padding-top: 40px;
+  align-self: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.myHobbies {
+  padding-left: 20px;
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.myHobbies ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  list-style-type: disc;
+}
+.hobbiesContainer {
+  height: 500px;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  padding: 50px;
+  gap: 50px;
+}
+.contactInfo {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+}
+#fname {
+  width: 250px;
+  height: 30px;
+}
+#lname {
+  width: 250px;
+  height: 30px;
+}
+#text {
+  width: 250px;
+  height: 100px;
+}
+#fname::placeholder,
+#lname::placeholder,
+#text::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  margin: 0;
+}
+#submit {
+  background-color: #7f837f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 25px;
+  align-self: center;
+}
+@media (min-width: 769px) {
+  /*media query for desktop*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    display: block;
+  }
+  figcaption {
+    display: block;
+  }
+  .copyRight {
+    display: block;
+  }
+  .table {
+    display: block;
+  }
+  .video {
+    display: block;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .logo {
+    display: block;
+  }
+  .dropdown-content {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .dropdown-content a {
+    margin: 0 10px;
+  }
+
+  .dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #e6d8d8;
+  }
+
+  img {
+    height: 70vh;
+  }
+  #home {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #about {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1555532538-dcdbd01d373d?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+
+  #vision {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #hobbies {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1593642634443-44adaa06623a?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #contact {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 180px;
+  }
+
+  .logo {
+    color: orange;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: initial;
+  }
+  .navbar {
+    display: none;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    list-style-type: none;
+    padding-right: 80px;
+  }
+  a {
+    text-decoration: none;
+    color: azure;
+  }
+
+  .header-text {
+    height: 500px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: antiquewhite;
+    font-style: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: flex-end;
+  }
+  .copyRight {
+    color: aliceblue;
+  }
+  hr {
+    margin: 0;
+    padding: 0;
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 50px;
+    height: 500px;
+    gap: 100px;
+  }
+  .myHistory {
+    padding-top: 50px;
+    align-self: normal;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  .myPhotoye {
+    width: 50vw;
+    padding: 10px;
+    margin-right: 100px;
+  }
+  figcaption {
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .visionContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+  }
+  .myVision {
+    width: 50vw;
+    padding-left: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .visionPhoto {
+    width: 50vw;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .visionPhoto img {
+    width: 100%;
+  }
+  .hobbiesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+    height: 500px;
+    gap: 50px;
+  }
+  .myHobbies {
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .myHobbies ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .theSchedules {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  th {
+    background-color: rgb(205, 155, 155);
+    border: 5px solid rebeccapurple;
+  }
+  td {
+    background-color: grey;
+    border: 5px solid black;
+  }
+  tr {
+    width: 300px;
+    height: 60px;
+  }
+
+  .myHobbies ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+    gap: 50px;
+  }
+  .contactInfo {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
+  }
+  #fname {
+    width: 400px;
+    height: 50px;
+  }
+  #lname {
+    width: 400px;
+    height: 50px;
+  }
+  #text {
+    width: 400px;
+    height: 200px;
+  }
+  #fname::placeholder,
+  #lname::placeholder,
+  #text::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    margin: 0;
+  }
+  #submit {
+    background-color: #7f837f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 25px;
+    align-self: center;
+  }
+
+  i {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* media query for Tablet*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: orange;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: initial;
+    margin-right: 400px;
+  }
+
+  .copyRight {
+    display: block;
+  }
+  img {
+    display: none;
+  }
+  .aboutContainer img {
+    display: block;
+  }
+  figcaption {
+    display: block;
+  }
+  .video {
+    display: block;
+  }
+  .table {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .logo {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .dropbtn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown {
+    display: inline-block;
+    padding-top: 0;
+  }
+  .dropbtn {
+    background-color: transparent;
+    color: #e3d4d4;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 200px;
+  }
+
+  .dropdown {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    justify-self: end;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6ecec;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f9f9f9;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #home {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #about {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1555532538-dcdbd01d373d?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+
+  #vision {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #hobbies {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1593642634443-44adaa06623a?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #contact {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  .header-text {
+    height: 500px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: antiquewhite;
+    font-style: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: flex-end;
+  }
+  .copyRight {
+    color: aliceblue;
+  }
+  .socialIcons {
+    display: flex;
+  }
+
+  .socialIcons a {
+    margin-right: 10px;
+  }
+  i {
+    color: white;
+  }
+  hr {
+    margin: 0;
+    padding: 0;
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 50px;
+    height: 500px;
+    gap: 10px;
+  }
+  .myHistory {
+    padding-top: 10px;
+    align-self: normal;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  .myPhotoye {
+    width: 50vw;
+    padding: 10px;
+    margin-right: 100px;
+  }
+  figcaption {
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .myphotoye img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .visionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+  }
+  .myVision {
+    padding: 80px;
+    padding-top: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .hobbiesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+    height: 500px;
+    gap: 50px;
+  }
+  .myHobbies {
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .myHobbies ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .video iframe {
+    width: 200px;
+    height: 150px;
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+    gap: 20px;
+  }
+  .contactInfo {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
+  }
+  #fname {
+    width: 150px;
+    height: 40px;
+  }
+  #lname {
+    width: 150px;
+    height: 40px;
+  }
+  #text {
+    width: 150px;
+    height: 100px;
+  }
+  #fname::placeholder,
+  #lname::placeholder,
+  #text::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    margin: 0;
+  }
+  #text {
+    vertical-align: top;
+  }
+  #submit {
+    background-color: #7f837f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 25px;
+    align-self: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*media query for mobile Landscape*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: orange;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: initial;
+    margin-right: 400px;
+  }
+
+  .copyRight {
+    display: block;
+  }
+  img {
+    display: none;
+  }
+  .aboutContainer img {
+    display: block;
+  }
+  figcaption {
+    display: block;
+  }
+  .video {
+    display: block;
+  }
+  .table {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+  }
+
+  .logo {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .dropbtn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown {
+    display: inline-block;
+    padding-top: 0;
+  }
+  .dropbtn {
+    background-color: transparent;
+    color: #e3d4d4;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 200px;
+  }
+
+  .dropdown {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    justify-self: end;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6ecec;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f9f9f9;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #home {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #about {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1555532538-dcdbd01d373d?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+
+  #vision {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #hobbies {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1593642634443-44adaa06623a?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  #contact {
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  .header-text {
+    height: 500px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: antiquewhite;
+    font-style: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: flex-end;
+  }
+  .copyRight {
+    color: aliceblue;
+  }
+  .socialIcons {
+    display: flex;
+  }
+
+  .socialIcons a {
+    margin-right: 10px;
+  }
+  i {
+    color: white;
+  }
+  hr {
+    margin: 0;
+    padding: 0;
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 50px;
+    height: 500px;
+    gap: 10px;
+  }
+  .myHistory {
+    padding-top: 10px;
+    align-self: normal;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  .myPhotoye {
+    width: 50vw;
+    padding: 10px;
+    margin-right: 100px;
+  }
+  figcaption {
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .myphotoye img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .visionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+  }
+  .myVision {
+    padding: 80px;
+    padding-top: 30px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .hobbiesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+    height: 500px;
+    gap: 50px;
+  }
+  .myHobbies {
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .myHobbies ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .video iframe {
+    width: 200px;
+    height: 150px;
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    padding: 50px;
+    gap: 20px;
+  }
+  .contactInfo {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
+  }
+  #fname {
+    width: 150px;
+    height: 40px;
+  }
+  #lname {
+    width: 150px;
+    height: 40px;
+  }
+  #text {
+    width: 150px;
+    height: 100px;
+  }
+  #fname::placeholder,
+  #lname::placeholder,
+  #text::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    margin: 0;
+  }
+  #text {
+    vertical-align: top;
+  }
+  #submit {
+    background-color: #7f837f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 25px;
+    align-self: center;
+  }
+}
