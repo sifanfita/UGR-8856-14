@@ -1,0 +1,5 @@
+# 
+fruits = ("apple", "banana", "cherry", "oranges", "pineapples")
+(green, yellow, *red) = fruits #red = [“cherry”,“oranges”, “pineapples”]fruits = ("apple", "banana", "cherry", “oranges”, “pineapples”)
+(green, yellow, *red) = fruits #red = [“cherry”,“oranges”, “pineapples”]
+print(red)
