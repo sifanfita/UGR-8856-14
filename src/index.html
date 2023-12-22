@@ -5,7 +5,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="#" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -13,368 +16,369 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <section id="home">
-      <div class="header">
-        <div class="container">
-          <nav>
-            <h1 class="logo">Sifan.</h1>
+      <div class="bg-blue-500">
+        <div class="container mx-auto">
+          <nav class="flex items-center justify-between py-4">
+            <h1 class="text-white text-2xl hidden sm:block">Sifan.</h1>
 
-            <ul>
-              <li>
+            <div class="dropdown">
+              <button class="dropbtn block lg:hidden">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="dropdown-content hidden sm:hidden lg:block">
                 <a href="#home">Home</a>
-              </li>
-              <li>
                 <a href="#about">About me</a>
-              </li>
-              <li>
                 <a href="#vision">Vision</a>
-              </li>
-              <li>
                 <a href="#hobbies">Hobbies</a>
-              </li>
-              <li>
                 <a href="#contact">Contact</a>
-              </li>
-            </ul>
+              </div>
+            </div>
           </nav>
-          <div class="header-text">
-            <p>Software Engineer</p>
-            <h1>Hi, I'm Sifan Fita from Ethiopia</h1>
+          <div class="text-center text-white h-[1000px]" style="height: 500px">
+            <p class="text-center">Software Engineer</p>
+            <h1 class="text-4xl font-bold">Hi, I'm Sifan Fita from Ethiopia</h1>
           </div>
         </div>
       </div>
-      <div class="footerContainer">
-        <div class="copyRight">
-          <p>&copy; SifanFita/AAIT</p>
-        </div>
-        <div class="socialIcons">
-          <a href="https://instagram.com/sifan_fita"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://t.me/siifjedheen">
-            <i class="fa-brands fa-telegram"></i
-          ></a>
-
-          <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+      <div class="bg-gray-200 py-4">
+        <div
+          class="container mx-auto flex items-center justify-between flex justify-center"
+        >
+          <div class="text-white hidden sm:block">
+            <p>&copy; SifanFita/AAIT</p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="https://instagram.com/sifan_fita">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/siifjedheen">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
-    <hr />
-    <section id="about">
-      <div class="header">
-        <div class="container">
-          <nav>
-            <h1 class="logo">Sifan.</h1>
-            <ul>
-              <li>
+    <section id="about" class="bg-gray-100">
+      <div class="header bg-blue-500">
+        <div class="container mx-auto">
+          <nav class="flex items-center justify-between py-4">
+            <h1 class="text-white text-2xl hidden sm:block">Sifan.</h1>
+
+            <div class="dropdown">
+              <button class="dropbtn block lg:hidden">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="dropdown-content hidden sm:hidden lg:block">
                 <a href="#home">Home</a>
-              </li>
-              <li>
                 <a href="#about">About me</a>
-              </li>
-              <li>
                 <a href="#vision">Vision</a>
-              </li>
-              <li>
                 <a href="#hobbies">Hobbies</a>
-              </li>
-              <li>
                 <a href="#contact">Contact</a>
-              </li>
-            </ul>
+              </div>
+            </div>
           </nav>
         </div>
-
-        <div class="aboutContainer">
-          <div class="myphotoye">
-            <figure>
-              <img src="images/me.jpg" alt="pic" />
-              <figcaption>Photo taken on Irecha.</figcaption>
-            </figure>
-          </div>
-          <div class="myHistory">
-            <h1>About me</h1>
-            <p>
-              I'm currently a 3rd year software engineering student at AAIT. I
-              have a passion for solving a problem and software development, and
-              my coursework has equipped me with skills in Data Structures and
-              Algorithms. Outside of academics, I've been involved in mentoring
-              students who are beginners to the coding world.
-            </p>
-          </div>
+      </div>
+      <div
+        class="aboutContainer container mx-auto flex items-center justify-between style="height: 500px"
+      >
+        <div class="myphotoye hidden sm:hidden md:block">
+          <figure>
+            <img src="images/me.jpg" alt="pic" />
+            <figcaption>Photo taken on Irecha.</figcaption>
+          </figure>
+        </div>
+        <div class="myHistory">
+          <h1 class="text-4xl font-bold">About me</h1>
+          <p class="text-lg">
+            I'm currently a 3rd year software engineering student at AAIT. I
+            have a passion for problem-solving and software development, and my
+            coursework has equipped me with skills in Data Structures and
+            Algorithms. Outside of academics, I've been involved in mentoring
+            students who are beginners to the coding world.
+          </p>
         </div>
       </div>
-      <div class="footerContainer">
-        <div class="copyRight">
-          <p>&copy; SifanFita/AAIT</p>
-        </div>
-        <div class="socialIcons">
-          <a href="https://instagram.com/sifan_fita"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://t.me/siifjedheen">
-            <i class="fa-brands fa-telegram"></i
-          ></a>
-
-          <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+      <div class="bg-gray-200 py-4">
+        <div
+          class="container mx-auto flex items-center justify-between flex justify-center"
+        >
+          <div class="text-white hidden sm:block">
+            <p>&copy; SifanFita/AAIT</p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="https://instagram.com/sifan_fita">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/siifjedheen">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
-    <hr />
-    <section id="vision">
-      <div class="header">
-        <div class="container">
-          <nav>
-            <h1 class="logo">Sifan.</h1>
-            <ul>
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About me</a>
-              </li>
-              <li>
-                <a href="#vision">Vision</a>
-              </li>
-              <li>
-                <a href="#hobbies">Hobbies</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
+    <section id="vision" class="bg-gray-100">
+      <div class="header bg-blue-500">
+        <div class="container mx-auto">
+            <nav class="flex items-center justify-between py-4">
+                <h1 class="text-white text-2xl hidden sm:block">Sifan.</h1>
+    
+                <div class="dropdown">
+                  <button class="dropbtn block lg:hidden">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <div class="dropdown-content hidden sm:hidden lg:block">
+                    <a href="#home">Home</a>
+                    <a href="#about">About me</a>
+                    <a href="#vision">Vision</a>
+                    <a href="#hobbies">Hobbies</a>
+                    <a href="#contact">Contact</a>
+                  </div>
+                </div>
+              </nav>
         </div>
-
-        <div class="visionContainer">
-          <div class="myVision">
-            <h1>My Vision</h1>
+      </div>
+      <div
+        class="visionContainer container mx-auto flex items-center justify-between" style="height: 500px;"
+      >
+        <div class="myVision">
+          <h1 class="text-4xl font-bold">My Vision</h1>
+          <br />
+          <p class="text-lg">
+            I envision joining Google to contribute to its growth and make a
+            meaningful impact within the company. To achieve this goal, I am
+            focusing on building a strong foundation through education and skill
+            development, particularly in software engineering and related
+            disciplines.
+          </p>
+          <br />
+          <aside>
+            <h3 class="text-2xl font-bold">Google</h3>
             <br />
-            <p>
-              I envision joining Google to contribute to its growth and make a
-              meaningful impact within the company. To achieve this goal, I am
-              focusing on building a strong foundation through education and
-              skill development, particularly in software engineering and
-              related disciplines.
+            <p class="text-lg">
+              Google is a multinational technology company that specializes in
+              internet-related services and products.
             </p>
-            <br />
-
-            <aside>
-              <h3>Google</h3>
-              <br />
-              <p>
-                Google is a multinational technology company that specializes in
-                internet-related services and products.
-              </p>
-            </aside>
-          </div>
-          <div class="visionPhoto">
-            <img src="images\google.jpg" alt="img" />
-          </div>
+          </aside>
+        </div>
+        <div class="visionPhoto hidden sm:hidden md:hidden lg:hidden xl:block">
+          <img src="images/google.jpg" alt="img" />
         </div>
       </div>
-      <div class="footerContainer">
-        <div class="copyRight">
-          <p>&copy; SifanFita/AAIT</p>
-        </div>
-        <div class="socialIcons">
-          <a href="https://instagram.com/sifan_fita"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://t.me/siifjedheen"
-            ><i class="fa-brands fa-telegram"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+      <div class="bg-gray-200 py-4">
+        <div
+          class="container mx-auto flex items-center justify-between flex justify-center"
+        >
+          <div class="text-white hidden sm:block">
+            <p>&copy; SifanFita/AAIT</p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="https://instagram.com/sifan_fita">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/siifjedheen">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
-    <hr />
     <section id="hobbies">
-      <div class="header">
+      <div class="header bg-blue-500">
         <div class="container">
-          <nav>
-            <h1 class="logo">Sifan.</h1>
-            <ul>
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About me</a>
-              </li>
-              <li>
-                <a href="#vision">Vision</a>
-              </li>
-              <li>
-                <a href="#hobbies">Hobbies</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
+            <nav class="flex items-center justify-between">
+                <h1 class="text-white text-2xl hidden sm:block">Sifan.</h1>
+    
+                <div class="dropdown">
+                  <button class="dropbtn block lg:hidden">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <div class="dropdown-content hidden sm:hidden lg:block">
+                    <a href="#home">Home</a>
+                    <a href="#about">About me</a>
+                    <a href="#vision">Vision</a>
+                    <a href="#hobbies">Hobbies</a>
+                    <a href="#contact">Contact</a>
+                  </div>
+                </div>
+              </nav>
         </div>
 
-        <div class="hobbiesContainer">
-          <div class="myHobbies">
-            <h1>Hobbies</h1>
-            <br />
-            <q
-              >The finest thing about hobby is that you can't do any pretending
-              about it. You either like it or you don't</q
-            >
-            <p>Dorothy Draper</p>
-            <br />
-            <h3>List of my hobbies</h3>
-            <br />
-            <ul>
-              <li>Reading fiction</li>
-
-              <li>Listening to music</li>
-
-              <li>Playing basket ball</li>
-            </ul>
+        <div class="flex" style="height: 500px;">
+  <div class="myHobbies w-full md:w-1/2">
+    <h1>Hobbies</h1>
+    <br />
+    <q>
+      The finest thing about a hobby is that you can't do any pretending about
+      it. You either like it or you don't
+    </q>
+    <p>Dorothy Draper</p>
+    <br />
+    <h3>List of my hobbies</h3>
+    <br />
+    <ul style="list-style: disc;">
+      <li>Reading fiction</li>
+      <li>Listening to music</li>
+      <li>Playing basketball</li>
+    </ul>
+  </div>
+  <div class="hidden md:block md:w-1/2">
+    <section class="theSchedule hidden md:block md:w-1/2s">
+      <table class="border-collapse hidden lg:table">
+        <tr>
+          <th class="border border-black px-4 py-2">Time</th>
+          <th class="border border-black px-4 py-2">Saturdays</th>
+          <th class="border border-black px-4 py-2">Sundays</th>
+        </tr>
+        <tr>
+          <td class="border border-black px-4 py-2">2pm - 4pm</td>
+          <td class="border border-black px-4 py-2">Listening to music</td>
+          <td class="border border-black px-4 py-2">Reading fictions</td>
+        </tr>
+        <tr>
+          <td class="border border-black px-4 py-2">4pm - 6pm</td>
+          <td class="border border-black px-4 py-2">Reading fictions</td>
+          <td class="border border-black px-4 py-2">Playing basketball</td>
+        </tr>
+      </table>
+    </section>
+    <section class="video hidden md:inline-block">
+      <iframe
+        width="350"
+        height="240"
+        src="https://www.youtube.com/embed/jBb_l4stfdw?si=Y3Xj2sCOQa7qdUfi"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+  </div>
+</div>
+      <div class="bg-gray-200 py-4">
+        <div
+          class="container mx-auto flex items-center justify-between flex justify-center"
+        >
+          <div class="text-white hidden sm:block">
+            <p>&copy; SifanFita/AAIT</p>
           </div>
-          <section class="theSchedules">
-            <div class="table">
-              <table>
-                <tr>
-                  <th>Time</th>
-                  <th>Saturdays</th>
-                  <th>Sundays</th>
-                </tr>
-                <tr>
-                  <td>2pm - 4pm</td>
-                  <td>Listening to music</td>
-                  <td>Reading fictions</td>
-                </tr>
-                <tr>
-                  <td>4pm - 6pm</td>
-                  <td>Reading fictions</td>
-                  <td>Playing basket ball</td>
-                </tr>
-              </table>
-            </div>
-            <div class="video">
-              <iframe
-                width="350"
-                height="240"
-                src="https://www.youtube.com/embed/jBb_l4stfdw?si=Y3Xj2sCOQa7qdUfi"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </section>
-        </div>
-      </div>
-      <div class="footerContainer">
-        <div class="copyRight">
-          <p>&copy; SifanFita/AAIT</p>
-        </div>
-        <div class="socialIcons">
-          <a href="https://instagram.com/sifan_fita"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://t.me/siifjedheen">
-            <i class="fa-brands fa-telegram"></i
-          ></a>
-
-          <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+          <div class="flex space-x-4">
+            <a href="https://instagram.com/sifan_fita">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/siifjedheen">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
-    <hr />
-    <section id="contact">
-      <div class="header">
-        <div class="container">
-          <nav>
-            <h1 class="logo">Sifan.</h1>
-            <ul>
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About me</a>
-              </li>
-              <li>
-                <a href="#vision">Vision</a>
-              </li>
-              <li>
-                <a href="#hobbies">Hobbies</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="contactContainer">
-          <div class="contactInfo">
-            <h3>My Contacts</h3>
-            <br />
-            <address>
-              <p>
-                <strong>Email:</strong
-                ><a href="mailto:sifanfita0@gmail.com">sifanfita0@gmail.com</a>
-              </p>
-              <br />
-
-              <p><strong>Tel:</strong> +251983668766</p>
-              <br />
-
-              <p>Addis Ababa, Ethiopia</p>
-            </address>
-          </div>
-          <div class="fill">
-            <form action="/action_page.php">
-              <input
-                type="text"
-                id="fname"
-                name="fname"
-                placeholder="First name"
-              /><br /><br />
-              <input
-                type="text"
-                id="lname"
-                name="lname"
-                placeholder="Last name"
-              /><br /><br />
-              <input
-                type="text"
-                id="text"
-                placeholder="Type your message here!"
-              /><br /><br />
-              <input type="submit" value="submit" id="submit" />
-            </form>
-          </div>
+    <section id="contact" class="bg-gray-100">
+      <div class="header bg-blue-500">
+        <div class="container mx-auto">
+            <nav class="flex items-center justify-between py-4">
+                <h1 class="text-white text-2xl hidden sm:block">Sifan.</h1>
+    
+                <div class="dropdown">
+                  <button class="dropbtn block lg:hidden">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <div class="dropdown-content hidden sm:hidden lg:block">
+                    <a href="#home">Home</a>
+                    <a href="#about">About me</a>
+                    <a href="#vision">Vision</a>
+                    <a href="#hobbies">Hobbies</a>
+                    <a href="#contact">Contact</a>
+                  </div>
+                </div>
+              </nav>
         </div>
       </div>
-      <div class="footerContainer">
-        <div class="copyRight">
-          <p>&copy; SifanFita/AAIT</p>
-        </div>
-        <div class="socialIcons">
-          <a href="https://instagram.com/sifan_fita"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="https://t.me/siifjedheen"
-            ><i class="fa-brands fa-telegram"></i
-          ></a>
+      <div
+        class="contactContainer container mx-auto flex flex-col md:flex-row items-center justify-between"
+      style="height: 500px;">
+        <div class="contactInfo">
+          <h3 class="text-2xl font-bold">My Contacts</h3>
+          <br />
+          <address>
+            <p>
+              <strong>Email:</strong
+              ><a href="mailto:sifanfita0@gmail.com" class="text-blue-500"
+                >sifanfita0@gmail.com</a
+              >
+            </p>
+            <br />
 
-          <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
+            <p><strong>Tel:</strong> +251983668766</p>
+            <br />
+
+            <p>Addis Ababa, Ethiopia</p>
+          </address>
+        </div>
+        <div class="fill">
+          <form action="/action_page.php">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First name"
+              class="mb-4 px-4 py-2 border rounded"
+            /><br /><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Last name"
+              class="mb-4 px-4 py-2 border rounded"
+            /><br /><br />
+            <textarea
+              id="text"
+              placeholder="Type your message here!"
+              class="mb-4 px-4 py-2 border rounded"
+            ></textarea
+            ><br /><br />
+            <input
+              type="submit"
+              value="Submit"
+              id="submit"
+              class="px-6 py-2 bg-blue-500 text-white rounded cursor-pointer"
+            />
+          </form>
+        </div>
+      </div>
+      <div class="bg-gray-200 py-4">
+        <div
+          class="container mx-auto flex items-center justify-between flex justify-center"
+        >
+          <div class="text-white hidden sm:block">
+            <p>&copy; SifanFita/AAIT</p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="https://instagram.com/sifan_fita">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://t.me/siifjedheen">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sifan-fita-hika-75138a227">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
